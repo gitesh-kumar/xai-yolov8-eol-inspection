@@ -4,9 +4,20 @@ This project explores the use of YOLOv8 for industrial defect detection,
 combined with Explainable AI techniques to improve trust and transparency
 in safety-critical production environments.
 
-## 📊 XAI Visualization Gallery
-These results demonstrate how the models identify screw defects in an industrial setting.
+## 📊 XAI Visualization Results
 
-| LRP (YOLOv8) | LIME (Yolov8) | Grad-CAM (Yolov5) |
-| :---: | :---: | :---: |
-|! [LRP](methods_yolo/results/LRP4.png) | ![LIME](methods_yolo/results/Lime_exp1.png) | ![GradCAM](methods_yolo/results/grad_cam_loose_tight.png) |
+### 1. LRP Explanation (YOLOv8)
+![LRP Result](methods_yolo/results/LRP4.png)
+*Figure 1: LRP heatmap showing feature importance for screw defect detection. Red areas indicate high influence on the model's decision.*
+
+---
+
+### 2. Grad-CAM Visualization (Yolov5)
+![Grad-CAM Result](methods_yolo/results/Grad_cam 2.png)
+*Figure 2: Grad-CAM output highlighting the convolutional layer activations during classification.*
+
+---
+
+### 3. LIME Visualization (Yolov8)
+![LIME Result](methods_yolo/results/Lime_exp1.png)
+*Figure 3: LIME output highlighting the highlighting the areas important for classification.*
