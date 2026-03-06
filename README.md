@@ -20,4 +20,4 @@ in safety-critical production environments.
 
 ### 3. LIME Visualization (Yolov8)
 ![LIME Result](methods_yolo/results/Lime_exp1.png)
-*Figure 3: LIME output highlighting the highlighting the areas important for classification.*
+*Figure 3: LIME output highlighting the highlighting the areas important for classification of fully tight screws.*
