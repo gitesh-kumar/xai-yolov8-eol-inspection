@@ -13,7 +13,7 @@ in safety-critical production environments.
 ---
 
 ### 2. Grad-CAM Visualization (Yolov5)
-![Grad-CAM Result](methods_yolo/results/Grad_cam 2.png)
+![Grad-CAM Result](methods_yolo/results/Grad_cam%202.png)
 *Figure 2: Grad-CAM output highlighting the convolutional layer activations during classification.*
 
 ---
